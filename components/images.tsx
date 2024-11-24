@@ -9,7 +9,7 @@ const secondaryImage = "/assets/secondary_image.jpg";
 const kplogoImage = "/assets/kp_logo.jpeg";
 const aadhaarImage = "/assets/aadhaar_image.jpg";
 const voterImage = "/assets/voter_card.jpg";
-
+const vaccinationImage = "/assets/vaccine_image.jpg";
 
 
 export {
@@ -23,5 +23,6 @@ export {
     secondaryImage, 
     kplogoImage,
     aadhaarImage,
-    voterImage
+    voterImage,
+    vaccinationImage
 };
