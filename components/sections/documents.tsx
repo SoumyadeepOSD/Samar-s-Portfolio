@@ -1,7 +1,7 @@
 import React from 'react'
 import BoldText from '../bold-text'
 import DropDownItem from '../dropdown'
-import { aadhaarImage, drivingImage, panImage, rationcardImage, vaccinationImage, voterImage } from '../images'
+import { aadhaarImage, drivingImage, panImage, rationcardImage, vaccinationImage, vehicleDocImages, voterImage } from '../images'
 
 
 const Documents = () => {
@@ -15,6 +15,7 @@ const Documents = () => {
         <DropDownItem imageUrl={voterImage} qualification={"Voter Card"} institution={""} />
         <DropDownItem imageUrl={rationcardImage} qualification={"Ration Card"} institution={""} />
         <DropDownItem imageUrl={vaccinationImage} qualification={"Vaccination Status"} institution={""} />
+        <DropDownItem imageUrl={vehicleDocImages} qualification={"Vehicle Information"} institution={""} />
         </div>
     </div>
   )
